@@ -22,7 +22,7 @@ New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\AppData\Local\Packages\M
 #--- Setting up Windows ---
 #. "$env:USERPROFILE\dotfiles\scripts\FileExplorerSettings.ps1"
 . "$env:USERPROFILE\dotfiles\scripts\RemoveDefaultApps.ps1"
-#. "$env:USERPROFILE\dotfiles\scripts\Tools.ps1"
+. "$env:USERPROFILE\dotfiles\scripts\Tools.ps1"
 #. "$env:USERPROFILE\dotfiles\scripts\IDEs.ps1"
 
 # TODO: install WSL2 / Ubuntu
